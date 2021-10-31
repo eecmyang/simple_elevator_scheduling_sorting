@@ -10,15 +10,16 @@
    
    2.1 location={1,2,3,4,5,6,7,8,9,10,11)
     
-       % 1-10 stand for floor number, 11 stands for user within the elevator
+        1-10 stand for floor number, 11 stands for user within the elevator.
        
    2.2 command={1,2,3,4,5,6,7,8,9,10,11,12) 
        
-       %1-10 stand for the floor the user would like to go. 11 for upstairs, 
+       1-10 stand for the floor the user would like to go. 
        
-       12 for downstair
+       11 for upstairs, 12 for downstair.
        
-3. Output the stops of this elevator to a file named as elevator_stop.txt
+3. Output the stops of this elevator to a text(.txt) file
+
 
 Command format description:
 
