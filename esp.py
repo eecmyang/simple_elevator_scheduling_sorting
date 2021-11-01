@@ -126,7 +126,7 @@ def ls_to_str(str_ls_1, str_ls_10, str_ls_5_up):
 
 
 # output result to txt file
-def output_results(result_1, result_10, result_5_up, student_id="J110252118", student_name="楊宙謨"):
+def output_results(result_1, result_10, result_5_up):
     with open("output_results.txt", "w") as out:
         out.write("Output results:\n\n")
         out.write(f"Result_1 initial=1F：   {result_1}\n"\
